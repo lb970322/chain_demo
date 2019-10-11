@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Index/index",
+			"style": {
+				"navigationBarTitleText": "天恩荷包"
+			}
+		},{
+			"path":"pages/Assets/index",
+			"style": {
+				"navigationBarTitleText":"社区"
+			}
+		},{
+			"path":"pages/Invest/index",
+			"style": {
+				"navigationBarTitleText":"投资"
+			}
+		},{
+			"path":"pages/User/index",
+			"style": {
+				"navigationBarTitleText":"我的总资产"
+			}
+		},{
+			"path":"pages/Index/convert",
+			"style": {
+				"navigationBarTitleText":"兑换"
+			}
+		},{
+			"path":"pages/Index/turn",
+			"style": {
+				"navigationBarTitleText":"互转"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#FFFFFF",
+		"selectedColor":"#4CD964",
+		"borderStyle":"black",
+		"backgroundColor":"#333333",
+		"list":[{
+			"pagePath":"pages/Index/index",
+			"text":"首页"
+		},{
+			"pagePath":"pages/Invest/index",
+			"text":"投资"
+		},{
+			"pagePath":"pages/Assets/index",
+			"text":"社区"
+		},{
+			"pagePath":"pages/User/index",
+			"text":"资产"
+		}]
+	}
+}
