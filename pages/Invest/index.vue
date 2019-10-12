@@ -28,8 +28,8 @@
 				
 				<view class="invest-box">
 					<view class="padding flex flex-direction">
-						<button class="cu-btn bg-cyan lg">转入</button>
-						<button class="cu-btn bg-red margin-tb-sm lg">转出</button>
+						<button class="cu-btn bg-cyan lg" @tap="navigate('./into')">转入</button>
+						<button class="cu-btn bg-red margin-tb-sm lg" @tap="navigate('./outto')">转出</button>
 					</view>
 				</view>
 			</view>
@@ -223,6 +223,12 @@ export default {
 				this.classDisPlay1.classA=true;
 				this.classDisPlay2.classA=false;
 			}
+		},
+		
+		navigate(url){
+			uni.navigateTo({
+				url: url,
+			});
 		},
 	}
 };

@@ -30,6 +30,16 @@
 			"style": {
 				"navigationBarTitleText":"互转"
 			}
+		},{
+			"path":"pages/Invest/into",
+			"style": {
+				"navigationBarTitleText":"转入日活宝"
+			}
+		},{
+			"path":"pages/Invest/outto",
+			"style": {
+				"navigationBarTitleText":"转出日活宝"
+			}
 		}
 	],
 	"globalStyle": {
