@@ -10,9 +10,9 @@
 		</view>
 		
 		<view class="cu-form-group margin-top convert-width">
-			<picker @change="PickerChanget" :value="index" :range="pickert">
+			<picker @change="PickerChang" :value="indext" :range="pickert">
 				<view class="picker convert-text">
-					{{index>-1?pickert[index]:'BTH'}}
+					{{indext>-1?pickert[indext]:'BTH'}}
 				</view>
 			</picker>
 		</view>
@@ -52,6 +52,7 @@
 		data() {
 			return {
 				index: -1,
+				indext: -1,
 				picker: ['FVT', 'BTH', 'NNN'],
 				pickert: ['BTH', 'FVT', 'SSS'],
 			}
@@ -60,8 +61,8 @@
 			PickerChange(e) {
 				this.index = e.detail.value
 			},
-			PickerChanget(e) {
-				this.index = e.detail.value
+			PickerChang(e) {
+				this.indext = e.detail.value
 			},
 		}
 		

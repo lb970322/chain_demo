@@ -33,13 +33,13 @@
 			</view>
 		</view>
 		
-		<view class="user-title">
+		<view class="user-title" @tap="navigate('./test')">
 			<text>我的资产</text>
 		</view>
 		
 		<!-- 资产展示页 -->
 		<view class="bi-card">
-			<view class="b-card">
+			<view class="b-card" @tap="navigate('./FVT')">
 				<view class="logo-img">
 					<image src="../../static/logo.png" mode=""></image>
 				</view>
@@ -54,7 +54,7 @@
 				</view>
 			</view>
 			
-			<view class="b-card">
+			<view class="b-card" @tap="navigate('./ETH')">
 				<view class="logo-img">
 					<image src="../../static/logo.png" mode=""></image>
 				</view>
@@ -69,7 +69,7 @@
 				</view>
 			</view>
 			
-			<view class="b-card">
+			<view class="b-card" @tap="navigate('./BTC')">
 				<view class="logo-img">
 					<image src="../../static/logo.png" mode=""></image>
 				</view>
@@ -84,7 +84,7 @@
 				</view>
 			</view>
 			
-			<view class="b-card">
+			<view class="b-card" @tap="navigate('./USDT')">
 				<view class="logo-img">
 					<image src="../../static/logo.png" mode=""></image>
 				</view>
@@ -104,6 +104,15 @@
 </template>
 
 <script>
+export default {
+	methods: {
+		navigate(url){
+			uni.navigateTo({
+				url: url,
+			});
+		},
+	}
+}
 </script>
 
 <style>

@@ -3,7 +3,31 @@
 		{
 			"path": "pages/Index/index",
 			"style": {
-				"navigationBarTitleText": "天恩荷包"
+				"navigationBarTitleText": "天恩荷包",
+				"enablePullDownRefresh":false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type":"menu",
+							"float":"left"
+						}]
+					}
+				}
+			}
+		},{
+			"path":"pages/Login/login",
+			"style": {
+				"navigationBarTitleText":"登录"
+			}
+		},{
+			"path":"pages/Login/reg",
+			"style": {
+				"navigationBarTitleText":"注册"
+			}
+		},{
+			"path":"pages/Login/pwd",
+			"style": {
+				"navigationBarTitleText":"找回密码"
 			}
 		},{
 			"path":"pages/Assets/index",
@@ -39,6 +63,56 @@
 			"path":"pages/Invest/outto",
 			"style": {
 				"navigationBarTitleText":"转出日活宝"
+			}
+		},{
+			"path":"pages/Invest/invest30",
+			"style": {
+				"navigationBarTitleText":"投资合约宝"
+			}
+		},{
+			"path":"pages/Invest/invest90",
+			"style": {
+				"navigationBarTitleText":"投资合约宝"
+			}
+		},{
+			"path":"pages/Invest/invest180",
+			"style": {
+				"navigationBarTitleText":"投资合约宝"
+			}
+		},{
+			"path":"pages/Invest/invest360",
+			"style": {
+				"navigationBarTitleText":"投资合约宝"
+			}
+		},{
+			"path":"pages/User/FVT",
+			"style": {
+				"navigationBarTitleText":"FVT"
+			}
+		},{
+			"path":"pages/User/ETH",
+			"style": {
+				"navigationBarTitleText":"ETH"
+			}
+		},{
+			"path":"pages/User/BTC",
+			"style": {
+				"navigationBarTitleText":"BTC"
+			}
+		},{
+			"path":"pages/User/USDT",
+			"style": {
+				"navigationBarTitleText":"USDT"
+			}
+		},{
+			"path":"pages/User/test",
+			"style": {
+				"navigationBarTitleText":"Test"
+			}
+		},{
+			"path":"pages/Index/stream",
+			"style": {
+				"navigationBarTitleText":"资金明细"
 			}
 		}
 	],

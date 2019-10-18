@@ -97,7 +97,7 @@
 						</view>
 					</view>
 					<view class="invest-columns">
-						<view class="flex flex-direction columns-button">
+						<view class="flex flex-direction columns-button" @tap="navigate('./invest30')">
 							<button class="cu-btn bg-blue">立即投资</button>
 						</view>
 					</view>
@@ -118,7 +118,7 @@
 						</view>
 					</view>
 					<view class="invest-columns">
-						<view class="flex flex-direction columns-button">
+						<view class="flex flex-direction columns-button" @tap="navigate('./invest90')">
 							<button class="cu-btn bg-blue">立即投资</button>
 						</view>
 					</view>
@@ -139,7 +139,7 @@
 						</view>
 					</view>
 					<view class="invest-columns">
-						<view class="flex flex-direction columns-button">
+						<view class="flex flex-direction columns-button" @tap="navigate('./invest180')">
 							<button class="cu-btn bg-blue">立即投资</button>
 						</view>
 					</view>
@@ -160,7 +160,7 @@
 						</view>
 					</view>
 					<view class="invest-columns">
-						<view class="flex flex-direction columns-button">
+						<view class="flex flex-direction columns-button" @tap="navigate('./invest360')">
 							<button class="cu-btn bg-blue">立即投资</button>
 						</view>
 					</view>
